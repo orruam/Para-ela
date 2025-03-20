@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+#mensagem {
+    padding: 50px;
+}
+
+#galeria-fotos img {
+    width: 300px;
+    margin: 20px;
+}
+#galeria-fotos img {
+    transition: transform 0.3s ease;
+}
+
+#galeria-fotos img:hover {
+    transform: scale(1.1);
+}
+.pagina {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+.pagina img {
+    max-width: 100%;
+}
+#diario {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#entradas div {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}

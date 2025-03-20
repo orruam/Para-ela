@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Para Minha Namorada Especial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mensagem">
+        <h1>Minha Mensagem para Você</h1>
+        <p id="texto-mensagem">Clique no botão abaixo para uma surpresa!</p>
+        <button id="botao-surpresa">Clique Aqui!</button>
+    </div>
+
+    <div id="galeria-fotos" style="display: none;">
+        <h1>Nossas Fotos</h1>
+        <img src="foto-emily1.png" alt="Nossa foto">
+        <img src="foto-emily2.png" alt="Nossa foto ">
+        <img src="foto-emily3.png" alt="Nossa foto ">
+        <img src="foto-emily4.png" alt="Nossa foto ">
+        <button id="botao-voltar">Voltar</button>
+    </div>
+    </div>
+
+    <div id="jogo">
+        <h2>Quiz do Nosso Amor</h2>
+        <p id="pergunta"></p>
+        <input type="text" id="resposta">
+        <button id="enviar-resposta">Enviar</button>
+        <p id="pontuacao"></p>
+    </div>
+    <div id="livro-memorias">
+        <h2>Nosso Livro de Memórias</h2>
+        <div id="paginas-livro">
+            </div>
+        <button id="adicionar-pagina">Adicionar Página</button>
+    </div>
+    <div id="diario">
+        <h2>Nosso Diário</h2>
+        <div id="entradas"></div>
+        <textarea id="nova-entrada" placeholder="Escreva..."></textarea>
+        <button id="adicionar-entrada">Adicionar</button>
+    </div>
+   
+    <div id="desejos-futuros">
+        <h2>Nossos Desejos Futuros</h2>
+        <ul id="lista-desejos"></ul>
+        <input type="text" id="novo-desejo" placeholder="Novo desejo...">
+        <button id="adicionar-desejo">Adicionar</button>
+    </div>
+    
+    <audio id="musica-fundo" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
